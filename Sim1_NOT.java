@@ -7,7 +7,11 @@ public class Sim1_NOT
 {
 	public void execute()
 	{
-		out.set(!in.get());
+		if(in.get()) {
+			out.set(false);
+		} else {
+			out.set(true);
+		}
 	}
 
 

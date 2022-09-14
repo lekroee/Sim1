@@ -9,8 +9,9 @@ public class Sim1_AND
 	{
 		if(a.get() && b.get()) {
 			out.set(true);
+		} else {
+			out.set(false);
 		}
-		out.set(false);
 	}
 
 
